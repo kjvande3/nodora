@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - collectible
+  - object
   layers:
   - Default
   - TransparentFX
@@ -44,11 +46,11 @@ TagManager:
   - name: Background
     uniqueID: 2165120163
     locked: 0
-  - name: Forground
-    uniqueID: 391781985
-    locked: 0
   - name: Objects
     uniqueID: 4144898957
+    locked: 0
+  - name: Forground
+    uniqueID: 391781985
     locked: 0
   - name: Colliders
     uniqueID: 4168908201
