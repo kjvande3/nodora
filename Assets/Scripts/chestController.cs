@@ -29,7 +29,7 @@ public class chestController : MonoBehaviour
 
         // Open Chest
         if (Input.GetKeyDown(KeyCode.E) && distanceToOpen >= distance) {
-            spriteRenderer.sprite = GameObject.Find("chestClosed").GetComponent<Sprite>();
+            spriteRenderer.sprite = GameObject.Find("chestOpen").GetComponent<Sprite>();
         }
             
     }
