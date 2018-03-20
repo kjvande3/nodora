@@ -51,7 +51,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Effects\Image\Bloom.cs" />
+     <Compile Include="Assets\Scripts\Effects\Image\ImageEffectBase.cs" />
+     <Compile Include="Assets\Scripts\Effects\Image\ImageEffects.cs" />
+     <Compile Include="Assets\Scripts\Effects\Image\PostEffectsBase.cs" />
+     <Compile Include="Assets\Scripts\Effects\Image\PostEffectsHelper.cs" />
+     <Compile Include="Assets\Scripts\Effects\Image\Tonemapping.cs" />
      <Compile Include="Assets\Scripts\TimedRespawn.cs" />
+     <None Include="Assets\Shaders\Bloom And Flares\RadialBlur.shader" />
+     <None Include="Assets\Shaders\Bloom And Flares\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Shaders\Bloom And Flares\BrightPassFilter2.shader" />
+     <None Include="Assets\Shaders\Bloom And Flares\Tonemapper.shader" />
+     <None Include="Assets\Shaders\Bloom And Flares\BrightPassFilter.shader" />
+     <None Include="Assets\Shaders\Bloom And Flares\LensFlareCreate.shader" />
+     <None Include="Assets\Shaders\Bloom And Flares\BlurAndFlares.shader" />
+     <None Include="Assets\Shaders\Bloom And Flares\BlendForBloom.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
